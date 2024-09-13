@@ -6,6 +6,11 @@ int addFunc(int a, int b){
     return a+b;
 }
 
+// author @21bds008
+int subtract(int a, int b){
+    return a-b;
+}
+
 int main(){
 
     return 0;
