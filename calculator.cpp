@@ -5,10 +5,7 @@ using namespace std;
 int addFunc(int a, int b){
     return a+b;
 }
-//author @21bds011
-int modf(int a,int b){
-    return a%b;
-}
+
 // author @21bds008
 int subtract(int a, int b){
     return a-b;
@@ -24,6 +21,11 @@ inline int divide (int numerator, int denominator) {
     if (denominator == 0)
         throw std::overflow_error("Divide by zero exception");
     return numerator / denominator;
+}
+
+// author @21bds013
+long long pow(int n, int x){
+    return pow(n, x);
 }
 
 
