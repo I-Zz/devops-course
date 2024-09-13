@@ -16,11 +16,19 @@ int Multi(int a, int b){
     return a*b;
 }
 
-int divide(int a, int b){
-    return a/b;
-}
+
 
 int main(){
+
+// author @21bds066
+     int x, y;
+    cout << "Enter two integers: ";
+    cin >> x >> y;
+
+    cout << "Addition: " << addFunc(x, y) << endl;
+    cout << "Subtraction: " << subtract(x, y) << endl;
+    cout << "Multiplication: " << Multi(x, y) << endl;
+    cout << "Division: " << divide(x, y) << endl;
 
     return 0;
 }
