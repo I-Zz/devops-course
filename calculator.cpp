@@ -10,3 +10,8 @@ int main(){
 
     return 0;
 }
+
+// author 21bec044
+int divide(int a, int b){
+    return a/b;
+}
