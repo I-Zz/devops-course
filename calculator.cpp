@@ -16,6 +16,11 @@ int Multi(int a, int b){
     return a*b;
 }
 
+// author @21bec045
+int expo(int a, int b){
+    return a^b;
+}
+
 // author @21bds004
 inline int divide (int numerator, int denominator) {
     if (denominator == 0)
@@ -40,6 +45,7 @@ int main(){
     cout << "Subtraction: " << subtract(x, y) << endl;
     cout << "Multiplication: " << Multi(x, y) << endl;
     cout << "Division: " << divide(x, y) << endl;
+     cout << "exponential: " << expo(x, y) << endl;
 
     return 0;
 }
