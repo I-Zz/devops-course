@@ -16,6 +16,12 @@ int Multi(int a, int b){
     return a*b;
 }
 
+// author @21bds004
+inline int divide (int numerator, int denominator) {
+    if (denominator == 0)
+        throw std::overflow_error("Divide by zero exception");
+    return numerator / denominator;
+}
 
 
 int main(){
