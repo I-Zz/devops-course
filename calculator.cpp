@@ -33,6 +33,11 @@ long long pow(int n, int x){
     return pow(n, x);
 }
 
+//author @21bds011
+int modf(int a,int b){
+    return a%b;
+}
+
 
 int main(){
 
