@@ -38,6 +38,11 @@ int modf(int a,int b){
     return a%b;
 }
 
+// author 21bec044
+int squareSum(int a, int b){
+    return a*a + b*b;
+}
+
 
 int main(){
 
@@ -53,9 +58,4 @@ int main(){
      cout << "exponential: " << expo(x, y) << endl;
 
     return 0;
-}
-
-// author 21bec044
-int divide(int a, int b){
-    return a/b;
 }
