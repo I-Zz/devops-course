@@ -29,8 +29,8 @@ inline int divide (int numerator, int denominator) {
 }
 
 // author @21bds013
-long long pow(int n, int x){
-    return pow(n, x);
+long long pow(int x, int n){
+    return pow(x, n);
 }
 
 //author @21bds011
